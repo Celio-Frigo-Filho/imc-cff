@@ -147,19 +147,19 @@
                     result.style.color = 'yellow';
                     result.innerHTML = 'Magreza | Obesidade: 0';
                 }
-                else if(imc >= 18.5 && imc <= 24.9)
+                else if(imc >= 18.5 && imc < 25)
                 {
                     console.log('Normal | Obesidade: 0');
                     result.style.color = 'lightgreen';
                     result.innerHTML = 'Normal | Obesidade: 0';
                 }
-                else if(imc >= 25 && imc <= 29.9)
+                else if(imc >= 25 && imc < 30)
                 {
                     console.log('Sobrepeso | Obesidade: I');
                     result.style.color = 'yellow';
                     result.innerHTML = 'Sobrepeso | Obesidade: I';
                 }
-                else if(imc >= 30 && imc <= 39.9)
+                else if(imc >= 30 && imc < 40)
                 {
                     console.log('Obesidade | Obesidade: II');
                     result.style.color = 'red';
@@ -175,4 +175,5 @@
             }
         }
     </script>
+
 </html>
